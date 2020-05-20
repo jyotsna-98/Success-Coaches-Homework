@@ -1,0 +1,56 @@
+/* this class will allow us to describe the skeleton of your card*/
+.card {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Pangolin', cursive;
+    width:300px;
+    margin:auto;
+    padding:15px;/* will give spacing from inside the border*/
+    border:1px solid black;
+    border-radius: 20px; /*it allow you to curve your border */
+    background-color:#00a8ff;
+    background-image: url("/images/pexels-photo-255379.jpeg");
+}
+h3 {
+    padding:5px 10px;
+    margin:0 0 15px 0;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif ;
+    border-radius:20px;
+    font-weight: boldest;/* this will allow you to make your text heading more bold */
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.image-container {
+    width:300px;
+    height:280px;
+    margin:15px 0;
+    justify-content: center;
+    border-radius: 150px;
+    overflow: hidden;     /*this will hide the image overflowing from the border it will get the shape according to border radius*/
+    border:3px solid rgb(186, 186, 233,0.7)
+}
+.image-container img {
+width:100%;
+height:100%;
+}
+.info{
+    padding:5px;
+     border-radius: 20px;
+    background-color:rgba(247, 205, 205, 0.6);
+    text-align:justify; /*align your text from both sides */
+}
+#description{
+    font-size: medium;
+
+}
+
+#list-items span{
+    font-weight: bold;
+
+}
+.quotes{
+    margin-bottom:0;
+}
+.indent{
+    margin-top:0;
+    padding-left:120px;
+}
